@@ -18,4 +18,5 @@ Easy Management: Use simple pop-up dialogs to add or remove tasks.
 A clean "Home Screen" that acts as the entry point for both applications.
 
 
-
+📥 Installation & Usage
+Clone the repository: git clone https://github.com or download by pressing code and zip file can be downloaded
