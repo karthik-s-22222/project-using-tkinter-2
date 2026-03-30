@@ -17,5 +17,12 @@ Easy Management: Use simple pop-up dialogs to add or remove tasks.
 3. Central Dashboard
 A clean "Home Screen" that acts as the entry point for both applications.
 
+output of this Project
+
+![image alt](https://github.com/karthik-s-22222/project-using-tkinter-2/blob/45109b2c430bd0f1db41352c85494cd2d077b679/1.png)
+![image alt](https://github.com/karthik-s-22222/project-using-tkinter-2/blob/45109b2c430bd0f1db41352c85494cd2d077b679/2.png)
+![image alt](https://github.com/karthik-s-22222/project-using-tkinter-2/blob/45109b2c430bd0f1db41352c85494cd2d077b679/3.png)
+![image alt]
+
  Installation & Usage
 Clone the repository: git clone https://github.com or download by pressing code and zip file can be downloaded
