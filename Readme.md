@@ -1,10 +1,12 @@
 📝 Project Overview
 This application serves as a central hub for productivity:
-Think Pad: A classic text editor inspired by Notepad, featuring font zooming, printing, and automatic timestamps.
-Task Manager: A modern GUI version of a "To-Do List" that replaces traditional CLI (command line) inputs with interactive buttons and a visual list.
 
+1.Think Pad: A classic text editor inspired by Notepad, featuring font zooming, printing, and automatic timestamps.
 
- Key Features About this project
+2.Task Manager: A modern GUI version of a "To-Do List" that replaces traditional CLI (command line) inputs with interactive buttons and a visual list.
+
+💻 Key Features About this project
+ 
 1. Think Pad (Editor)
 File Control: Create, Open, and Save .txt files easily.
 Dynamic Zoom: Change font size instantly using the Zoom menu (Fixes the global font_size error).
@@ -23,5 +25,5 @@ output of this Project
 ![image alt](https://github.com/karthik-s-22222/project-using-tkinter-2/blob/45109b2c430bd0f1db41352c85494cd2d077b679/2.png)
 ![image alt](https://github.com/karthik-s-22222/project-using-tkinter-2/blob/45109b2c430bd0f1db41352c85494cd2d077b679/3.png)
 
- Installation & Usage
+🔘✅Installation & Usage
 Clone the repository: git clone https://github.com or download by pressing code and zip file can be downloaded
