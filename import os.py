@@ -8,7 +8,7 @@ from tkinter import filedialog, messagebox, simpledialog
 from datetime import datetime
 
 
-# --- TASK PAD (TEXT EDITOR) ---
+# --- Think PAD (TEXT EDITOR) ---
 def open_think_pad():
     simple = tr.Tk()                    
     simple.title (" Think Pad (TP) ")
@@ -116,24 +116,24 @@ def open_think_pad():
     simple.config(menu=Menu)
 
 
-    ToDoList_menu=tr.Menu(Menu,tearoff=0)
+    Thinkpad_menu=tr.Menu(Menu,tearoff=0)
     Edit_menu =tr.Menu(Menu, tearoff=0)
     date_time_menu = tr.Menu(Menu, tearoff=0)
     zoom_menu = tr.Menu(Menu, tearoff=0)
     Help_menu =tr.Menu(Menu, tearoff=0)
 
-    Menu.add_cascade(label='TodoList', menu=ToDoList_menu)
+    Menu.add_cascade(label='TodoList', menu=Thinkpad_menu)
     Menu.add_cascade(label='Edit',menu= Edit_menu)
     Menu.add_cascade(label="Date & Time", menu= date_time_menu)
     Menu.add_cascade(label="Zoom",menu= zoom_menu)
     Menu.add_cascade(label="Help",menu= Help_menu)
 
-    ToDoList_menu.add_command(label="New", command= new_tasks)
-    ToDoList_menu.add_command(label='Open', command= open_tasks)
-    ToDoList_menu.add_command(label="Save", command= save_tasks)
-    ToDoList_menu.add_command(label="print", command= print_task)
-    ToDoList_menu.add_separator()
-    ToDoList_menu.add_command(label='Exit', command=simple.quit)
+    Thinkpad_menu.add_command(label="New", command= new_tasks)
+    Thinkpad_menu.add_command(label='Open', command= open_tasks)
+    Thinkpad_menu.add_command(label="Save", command= save_tasks)
+    Thinkpad_menu.add_command(label="print", command= print_task)
+    Thinkpad_menu.add_separator()
+    Thinkpad_menu.add_command(label='Exit', command=simple.quit)
 
     Edit_menu.add_command(label="cut_tasks", command= cut)
     Edit_menu.add_command(label='copy_tasks', command= copy)
