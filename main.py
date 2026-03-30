@@ -214,5 +214,5 @@ btn_pad.pack(pady=10)
 btn_list = tr.Button(simple, text="📋 press to Open Task Manager (List)", width=30, height=2, 
                      command=open_task_list, bg="#fff9c4")
 btn_list.pack(pady=10)
-
+ #Main for the output
 simple.mainloop()
