@@ -1,0 +1,5 @@
+# No external dependencies required. 
+# All modules are part of the Python Standard Library.
+'''so you can easily work on this project without installing any additional packages. 
+Just make sure you have Python installed on your system, and 
+you should be able to run the code without any issues.''' 
